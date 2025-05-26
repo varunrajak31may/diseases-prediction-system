@@ -1,0 +1,248 @@
+Gender,Age,Disease,DoctorID,Specialization
+M,58,Fungal infection,D42,Dermatologist 
+F,27,Allergy,D34,Immunologist
+M,30,GERD,D77,Gastroenterologist
+M,23,Chronic cholestasis,D109,Hepatologist
+F,26,Drug Reaction,D22,Dermatologist 
+M,75,Peptic ulcer disease,D2,Gastroenterologist
+F,53,AIDS,D44,Immunologist
+M,73,Diabetes,D112,Endocrinologist
+F,59,Gastroenteritis,D66,Gastroenterologist
+F,49,Bronchial Asthma,D87,Immunologist/Allergist
+M,66,Migraine,D8,Neurologist
+M,53,Cervical spondylosis,D112,Orthopedist
+M,34,Paralysis (brain haemorrhage),D33,Neurologist
+F,18,Jaundice,D63,Hepatologist
+M,77,Malaria,D34,Infectious Disease Specialist
+M,57,Chicken pox,D82,Dermatologist
+F,72,Dengue,D39,Infectious Disease Specialist
+M,51,Typhoid,D80,Infectious Disease Specialist
+F,65,Hepatitis A,D26,Hepatologist
+F,61,Hepatitis B,D10,Hepatologist
+F,47,Hepatitis C,D28,Hepatologist
+F,69,Hepatitis E,D68,Hepatologist
+M,74,Hepatitis D,D24,Hepatologist
+M,25,Alcoholic hepatitis,D77,Hepatologist
+M,14,Tuberculosis,D49,Pulmonologist
+M,42,Common Cold,D25,Pediatrician/General Physician
+M,54,Pneumonia,D21,Pulmonologist
+M,33,Dimorphic haemorrhoids(piles),D48,Gastroenterologist
+F,63,Heart attack,D86,Cardiologist
+M,13,Varicose veins,D83,Phlebologist
+M,24,Hypothyroidism,D13,Endocrinologist
+M,63,Hyperthyroidism,D23,Endocrinologist
+M,64,Hypoglycaemia,D35,Endocrinologist
+M,25,Arthritis,D57,Orthopedist
+M,57,Osteoarthritis,D85,Orthopedist
+F,33,Paroxysmal Positional Vertigo,D82,ENT
+F,23,Urinary tract infection,D27,Uronologist
+F,58,Psoriasis,D56,Dermatologist
+M,21, Acne,D24,Dermatologist
+F,68,Impetigo,D65,Dermatologist
+,,,,
+M,78, Hernia,D49,Gastroenterology
+M,9, Gastritis,D46,Gastroenterology
+F,41, Kidney stones,D112,Urology
+F,57, Hematuria,D113,Urology
+M,74, Itchy skin,D22,Dermatology (Skin)
+M,66, Heart Disease,D28,Echocardiography
+M,69, Glaucoma,D44,Eye (Ophthalmology)
+F,24, Hematuria,D115,Urology
+M,49, Neurological disorders,D76,Neurology
+F,72, Heart Disease,D28,Echocardiography
+M,66, Eczema,D21,Dermatology (Skin)
+F,45, Dr. Bhaskar Sen,D111,Psychiatry
+M,7, Diabetic Eye Disease,D45,Eye (Ophthalmology)
+M,66, UTI,D115,Urology
+M,5, Insomnia,D107,Psychiatry
+M,43, Arthritis,D89,Orthopaedics
+M,41, Neurological disorders,D76,Neurology
+F,4, Autism,D107,Psychiatry
+M,56, Heart Disease,D26,Echocardiography
+F,77, Glaucoma,D45,Eye (Ophthalmology)
+M,76, Hematuria,D113,Urology
+M,68, Autism,D111,Psychiatry
+M,77, Mouth sores,D16,Dentistry
+M,65, Coronary artery disease,D1,Cardiology
+M,66, Heart Disease,D26,Echocardiography
+M,35, Stomach Ulcers,D48,Gastroenterology
+M,36, Heart Disease,D5,Cardiology
+F,12, Low back pain,D87,Orthopaedics
+F,9, Influenza,D61,General Medicine
+F,12, Glaucoma,D40,Eye (Ophthalmology)
+M,5, Heart Disease,D7,Cardiology
+F,5, Heart Disease,D7,Cardiology
+M,67, Neurological disorders,D79,Neurology
+M,4, Autism,D108,Psychiatry
+F,39, Itchy skin,D19,Dermatology (Skin)
+M,42, Neurological disorders,D80,Neurology
+M,20, Dengue,D54,General Medicine
+F,16, Coronary artery disease,D5,Cardiology
+M,65, Tonsillitis,D33,ENT
+F,6, Neurological disorders,D81,Neurology
+M,9, Ear Infections,D37,ENT
+M,23, Cataract,D43,Eye (Ophthalmology)
+F,69, Hernia,D48,Gastroenterology
+F,51, Gastritis,D46,Gastroenterology
+M,17, Insomnia,D106,Psychiatry
+M,52, Neurological disorders,D80,Neurology
+M,60, Oral Cancer,D15,Dentistry
+M,23, Kidney stones,D113,Urology
+F,15, Low back pain,D89,Orthopaedics
+F,60, Heart Disease,D26,Echocardiography
+M,10, Pneumonia,D56,General Medicine
+F,65, Eczema,D22,Dermatology (Skin)
+M,5, Tooth Erosion,D14,Dentistry
+F,55, Heart Disease,D29,Echocardiography
+M,16, Heart Disease,D25,Echocardiography
+M,36, Acne,D21,Dermatology (Skin)
+M,61, Bipolar disorder,D111,Psychiatry
+F,18, Hematuria,D114,Urology
+M,64, Lung Diseases,D11,Chest Medicine
+F,39, Lung Diseases,D11,Chest Medicine
+F,25, Menstrual irregularities,D69,Gynaecology Obstetrics
+M,22, Glaucoma,D43,Eye (Ophthalmology)
+M,34, Influenza,D62,General Medicine
+M,54, Hematuria,D113,Urology
+F,69, Low back pain,D87,Orthopaedics
+F,56, Stomach Ulcers,D46,Gastroenterology
+M,46, Stomach Ulcers,D48,Gastroenterology
+M,43, Autism,D109,Psychiatry
+M,16, Kidney stones,D112,Urology
+M,26, Arthritis,D86,Orthopaedics
+M,22, Neurological disorders,D78,Neurology
+M,74, Lung Diseases,D10,Chest Medicine
+M,32, Neurological disorders,D78,Neurology
+F,79, Ovarian cysts,D67,Gynaecology Obstetrics
+M,54, Pneumonia,D62,General Medicine
+M,59, Lung Diseases,D8,Chest Medicine
+F,7, Gastritis,D53,Gastroenterology
+M,78, Hematuria,D113,Urology
+M,44, Gastritis,D53,Gastroenterology
+M,49, Low back pain,D83,Orthopaedics
+M,51, Neurodevelopmental Disorders,D107,Psychiatry
+M,7, Dengue,D53,General Medicine
+F,72, Neurodevelopmental Disorders,D111,Psychiatry
+F,35, Arthritis,D88,Orthopaedics
+F,72, Heart Disease,D28,Echocardiography
+M,14, Dengue,D60,General Medicine
+F,79, Prostate cancer,D113,Urology
+M,19, Coronary artery disease,D6,Cardiology
+F,41, Appendicitis,D48,Gastroenterology
+M,37, Kidney stones,D115,Urology
+M,3, Appendicitis,D46,Gastroenterology
+M,17, Lung Diseases,D8,Chest Medicine
+M,31, Glaucoma,D41,Eye (Ophthalmology)
+M,45, Heart Disease,D27,Echocardiography
+M,30, Tonsillitis,D30,ENT
+M,10, Low back pain,D85,Orthopaedics
+M,78, Tooth Erosion,D17,Dentistry
+M,50, OCD,D108,Psychiatry
+M,22, Hernia,D53,Gastroenterology
+F,63, Coronary artery disease,D1,Cardiology
+F,53, Eczema,D24,Dermatology (Skin)
+M,47, Cataract,D39,Eye (Ophthalmology)
+M,15, Neurodevelopmental Disorders,D107,Psychiatry
+F,56, Itchy skin,D24,Dermatology (Skin)
+F,76, Cataract,D44,Eye (Ophthalmology)
+F,4, Lung Diseases,D9,Chest Medicine
+F,25, Neurological disorders,D76,Neurology
+M,37, Tonsillitis,D35,ENT
+F,27, Heart Disease,D26,Echocardiography
+F,20, Heart Disease,D26,Echocardiography
+M,67, Glaucoma,D43,Eye (Ophthalmology)
+M,77, Anxiety Disorders,D107,Psychiatry
+F,66, Tooth Sensitivity,D18,Dentistry
+M,3, Pneumonia,D59,General Medicine
+M,9, Pneumonia,D50,General Medicine
+M,9, Eczema,D19,Dermatology (Skin)
+F,54, Diabetic Eye Disease,D45,Eye (Ophthalmology)
+F,59, Cataract,D41,Eye (Ophthalmology)
+M,37, Lung Diseases,D10,Chest Medicine
+M,38, Itchy skin,D23,Dermatology (Skin)
+M,29, Stomach Ulcers,D49,Gastroenterology
+F,55, Tonsillitis,D31,ENT
+F,41, Heart Disease,D27,Echocardiography
+M,58, Lung Diseases,D11,Chest Medicine
+M,69, Neurological disorders,D78,Neurology
+M,4, Neurological disorders,D78,Neurology
+F,29, Tooth Sensitivity,D15,Dentistry
+M,65, Autism,D111,Psychiatry
+M,65, UTI,D114,Urology
+M,75, Autism,D110,Psychiatry
+M,34, Diabetic Eye Disease,D38,Eye (Ophthalmology)
+M,80, OCD,D106,Psychiatry
+M,24, Heart Disease,D7,Cardiology
+M,27, Lung Diseases,D9,Chest Medicine
+F,16, Ear Infections,D32,ENT
+M,76, Tonsillitis,D34,ENT
+F,73, Neck pain,D92,Orthopaedics
+M,52, Itchy skin,D24,Dermatology (Skin)
+M,24, Tonsillitis,D32,ENT
+M,68, Dengue,D56,General Medicine
+M,12, Glaucoma,D44,Eye (Ophthalmology)
+M,41, Hematuria,D112,Urology
+F,49, Autism,D108,Psychiatry
+F,19, Prostate cancer,D113,Urology
+M,75, Neurological disorders,D79,Neurology
+M,59, Coronary artery disease,D3,Cardiology
+M,25, Heart Disease,D29,Echocardiography
+F,36, Uterine fibroids,D75,Gynaecology Obstetrics
+M,79, Anxiety Disorders,D108,Psychiatry
+M,9, Diabetic Eye Disease,D44,Eye (Ophthalmology)
+M,10, Tooth Erosion,D13,Dentistry
+F,57, Heart Disease,D4,Cardiology
+F,44, Heart Disease,D27,Echocardiography
+M,4, Diabetic Eye Disease,D38,Eye (Ophthalmology)
+M,18, Coronary artery disease,D2,Cardiology
+M,47, Heart Disease,D1,Cardiology
+M,27, Gastritis,D53,Gastroenterology
+F,19, Menstrual irregularities,D69,Gynaecology Obstetrics
+F,49, Uterine fibroids,D65,Gynaecology Obstetrics
+F,61, Coronary artery disease,D7,Cardiology
+F,63, Hematuria,D115,Urology
+M,27, Neurological disorders,D77,Neurology
+F,47, Autism,D109,Psychiatry
+M,15, Lung Diseases,D11,Chest Medicine
+F,11, Anxiety Disorders,D107,Psychiatry
+F,48, Ear Infections,D33,ENT
+M,16, Dengue,D62,General Medicine
+M,7, Chronic cough,D57,General Medicine
+F,32, Fracture,D85,Orthopaedics
+M,28, Glaucoma,D43,Eye (Ophthalmology)
+M,26, Hernia,D46,Gastroenterology
+M,19, Diabetic Eye Disease,D38,Eye (Ophthalmology)
+M,32, Heart Disease,D4,Cardiology
+M,35, Arthritis,D83,Orthopaedics
+M,73, Stomach Ulcers,D46,Gastroenterology
+M,31, Acne,D23,Dermatology (Skin)
+M,25, Anxiety Disorders,D110,Psychiatry
+M,5, Kidney stones,D115,Urology
+M,12, Oral Cancer,D17,Dentistry
+M,39, Influenza,D60,General Medicine
+M,17, Glaucoma,D40,Eye (Ophthalmology)
+F,41, Ear Infections,D34,ENT
+M,69, Influenza,D55,General Medicine
+M,45, Lung Diseases,D11,Chest Medicine
+M,27, Coronary artery disease,D5,Cardiology
+M,19, Lung Diseases,D9,Chest Medicine
+M,42, Tooth Erosion,D16,Dentistry
+M,70, Hair loss,D20,Dermatology (Skin)
+M,39, Heart Disease,D28,Echocardiography
+M,56, Cataract,D40,Eye (Ophthalmology)
+M,38, Kidney stones,D113,Urology
+M,46, Hematuria,D114,Urology
+M,22, Insomnia,D106,Psychiatry
+M,44, Arthritis,D92,Orthopaedics
+M,22, Arthritis,D85,Orthopaedics
+M,80, Heart Disease,D25,Echocardiography
+M,21, Stomach Ulcers,D46,Gastroenterology
+M,51, Hepatitis,D53,Gastroenterology
+M,5, Heart Disease,D28,Echocardiography
+M,24, Dengue,D53,General Medicine
+M,6, Heart Disease,D29,Echocardiography
+M,59, UTI,D115,Urology
+M,22, Glaucoma,D42,Eye (Ophthalmology)
+M,13, Gum Disease,D18,Dentistry
+M,70, Lung Diseases,D11,Chest Medicine
+M,59, Heart Disease,D27,Echocardiography

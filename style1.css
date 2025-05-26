@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+ 
+  .hero {
+    background: url('./medical-banner-with-doctor-wearing-goggles.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #10b981;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    background-color: #fff;
+  }
+
+  
+  .feature-card {
+    background: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  .feature-icon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .disease-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Makes it responsive */
+  }
+  
+  .disease-image img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  .disease-content {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .disease-content h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 1rem;
+  }
+  
+  .disease-content p {
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #10b981;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #059669;
+  }
+
+  .ml-description {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f0fdf4;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-family: 'Segoe UI', sans-serif;
+    color: #1f2937;
+  }
+  
+  .ml-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #065f46;
+  }
+  
+  .ml-description h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    color: #047857;
+  }
+  
+  .ml-description p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .ml-description ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+    padding: 0;
+  }
+  
+  .ml-description ul li {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .ml-description blockquote {
+    font-style: italic;
+    padding-left: 1rem;
+    border-left: 4px solid #10b981;
+    margin: 1rem 0;
+    color: #374151;
+  }
+  
+  .ml-description .btn {
+    display: inline-block;
+    background-color: #10b981;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .ml-description .btn:hover {
+    background-color: #059669;
+  }
+  .marquee-text {
+    font-size: 1.2rem;
+    color: #e4dd09;
+    font-weight: bold;
+    background-color: #2450d6;
+    padding: 10px;
+    border-radius: 8px;
+  }
+   .logo img {
+    width: 100px; /* Adjust the logo size */
+    height: auto;
+  }
+    /* Header Styling */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #2378d8; /* You can change the background color */
+    color: rgb(248, 245, 245);
+    
+}
+  
+  .site-header .logo img {
+    width: 200px; /* Adjust the logo size */
+    height: 200;
+  }
+  
+  .site-header .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem; 
+   
+  }/* Space between navigation items */
+  
+  
+  .site-header .navigation ul li {
+    display: inline;
+  }
+  
+  .site-header .navigation ul li a {
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .site-header .navigation ul li a:hover {
+    color: #fcfafa;
+  }
+  ------------------------------------
+  container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    max-width: 520px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.card-header {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 12px 12px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin: -40px -30px 30px -30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    color: #34495e;
+    font-weight: 600;
+}
+
+select,
+input[type="text"] {
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+select:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f6391;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 6px solid #27ae60;
+    font-weight: bold;
+    color: #2c3e50;
+    border-radius: 8px;
+}
+.card{
+    display: ruby-text;
+}
+--------------------------------------------
+/* Default (Light) Theme */
+body {
+    background-color: #ffffff;
+    color: #111111;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Theme */
+  body.dark-theme {
+    background-color: #111111;
+    color: #ffffff;
+  }
+  
+  /* Optional: Adjust cards and sections */
+  .feature-card {
+    background-color: #f9fafb;
+    color: #111;
+  }
+marquee.dark-theme{
+background-color: black;
+color: #ccc;
+  }
+  body.dark-theme .feature-card {
+    background-color: #222;
+    color: #eee;
+  }
+  #theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-image: ;
+  }
+  
+  #theme-toggle:hover {
+    background-color: #0d8a6d;
+  }
+   -----------------------------
+header{
+  background-image: url('C:\Users\varun\Desktop\Doctor-Hub\static\top-view-world-heart-day-with-copy-space.jpg');
+}

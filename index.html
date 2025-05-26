@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Prediction</h1>
+        <form method="POST" action="/predict">
+            <label>Fever:</label>
+            <select name="fever"required>
+                <option value="Default">Default</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label>Cough:</label>
+            <select name="cough"required>
+                <option value="">Default</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label>Breathing Difficulty:</label>
+            <select name="breathing"required>
+                <option value="">Default</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label>Gender:</label>
+            <select name="gender"required >
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+    
+            <label>Age:</label>
+            <input type="text" name="age" required>
+    
+            <label>Blood Pressure:</label>
+            <input type="text" name="blood_pressure"required>
+    
+            <label>Cholesterol:</label>
+            <input type="text" name="cholesterol"required>
+    
+            <input type="submit" value="Predict">
+        </form>
+    
+        {% if prediction_text %}
+            <p class="result">{{ prediction_text }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

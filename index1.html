@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Care - Your Health Companion</title>
+  <link rel="stylesheet" href="/static/style1.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+
+    <header class="site-header">
+        <div class="logo">
+          
+          <img src="/static/Blue_and_White_Modern_Digital_Marketing_Logo-removebg-preview.png" alt="We Care"  ><b> <b/>
+         
+        </div>
+        <nav class="navigation">
+          <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('predict_page') }}" id="pre">Disease Prediction</a></li>
+            <li><a href="https://www.who.int/westernpacific/newsroom/feature-stories/item/10-health-tips-for-2025">Health Tips</a></li>
+            <li><a href="https://www.medibuddy.in/doctors/online-consultation">Doctor Consultation</a></li>
+            <li><a href="{{ url_for('login') }}">Login/Signup</a></li>
+            <li><a href="{{ url_for('symptom_predict') }}">Symptom-Based Prediction</a></li>
+            
+          </ul>
+        </nav>
+       
+          
+      </header>
+      <button id="theme-toggle">🌙 </button>
+
+
+      
+  <marquee behavior="scroll" direction="left" scrollamount="10" class="marquee-text">
+    🚨 Stay Healthy! Try Disease Prediction Now, Book Doctor Consultation, and Read Our Latest Health Tips!
+  </marquee>
+  
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to We Care</h1>
+      <p>Your one-stop platform for smarter health decisions.</p>
+      <a href="{{ url_for('predict_page') }}" class="btn">Get Started</a>
+    </div>
+  </section>
+  <aside class="disease-section">
+    <div class="disease-image">
+      <img src="/static/medical-blood-test-illustration-with-checklist_1308-178597.avif" alt="Disease Prediction AI">
+    </div>
+    <div class="disease-content">
+      <h2>Disease Prediction with Machine Learning</h2>
+      <p>
+        Machine Learning is transforming the future of healthcare — and <strong>disease prediction</strong> is leading the way. By studying patterns in large medical datasets, ML can predict the risk of diseases even before symptoms appear.
+      </p>
+      
+        <h3>🔮 Why It Matters for the Future:</h3>
+        <ul>
+          <li><strong>Early Detection Saves Lives:</strong> ML catches warning signs early, helping with quick diagnosis and treatment.</li>
+          <li><strong>Personalized Results:</strong> Predictions are based on your unique symptoms and health history.</li>
+          <li><strong>24/7 Access:</strong> You can check your health status anytime — no appointments needed.</li>
+          <li><strong>Always Improving:</strong> Our model learns from real data, becoming smarter with each interaction.</li>
+        </ul>
+      
+        <blockquote>
+          “We Care uses AI to provide real-time predictions from your symptoms, helping you take control of your health with confidence.”
+        </blockquote>
+      
+        <a href="{{ url_for('predict_page') }}" class="btn" >Start Your Prediction</a>
+          
+    </div>
+  </aside>
+  
+  <section class="features">
+    <div class="feature-card">
+      <img src="/static/virus-cure-concept_23-2148488869.avif" alt="Disease Prediction" class="feature-icon">
+      <h3>Disease Prediction</h3>
+      <p>Use our AI-powered system to predict potential illnesses early.</p>
+    </div>
+    <div class="feature-card">
+      <img src="/static/tips.avif" alt="Health Tips" class="feature-icon">
+      <h3>Health Tips</h3>
+      <p>Stay updated with daily tips to live a healthier life.</p>
+    </div>
+    <div class="feature-card">
+      <img src="/static/close-up-doctor-checking-patient_23-2148816208.avif" alt="Doctor Consultation" class="feature-icon">
+      <h3>Doctor Consultation</h3>
+      <p>Connect with certified doctors anytime, anywhere.</p>
+    </div>
+  </section>
+
+
+<br> 
+
+         
+  <footer>
+    <p>&copy; 2025 We Care. All rights reserved.</p>
+  </footer>
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+  
+    // Load the saved theme
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        document.body.classList.add('dark-theme');
+        toggleBtn.textContent = "☀️ Light Mode";
+      }
+    });
+  
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+  
+      if (document.body.classList.contains('dark-theme')) {
+        toggleBtn.textContent = "☀️ Light Mode";
+        localStorage.setItem('theme', 'dark');
+      } else {
+        toggleBtn.textContent = "🌙 Dark Mode";
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+document.getElementById("pre").addEventListener("click", function () {
+Swal.fire({
+  title: "Navigating to Disease Prediction",
+  icon: "success",
+  draggable: true
+});
+});
+
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>Login - We Care</title>
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .bg-image {
+      background-image: url('/static/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.avif'); /* replace with your image path */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: fixed;
+      width: 100%;
+      z-index: -1;
+    }
+
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 40px;
+      width: 300px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      color: white;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #0056b3;
+    }
+    h2{
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-image"></div>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form method="POST" action="/login">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button id=login type="submit">Login</button>
+    </form>
+    {% if error %}
+  <p style="color: red; text-align: center;">{{ error }}</p>
+{% endif %}
+
+  </div>
+</body>
+<script>
+  document.getElementById("login").addEventListener("click",function (){
+    Swal.fire({
+      title: "login sucessfull",
+      icon: "success",
+      draggable: true
+    });
+  
+});
+</script>
+</html>

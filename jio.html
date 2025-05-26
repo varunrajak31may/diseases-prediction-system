@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Predictor</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2E8B57;
+            margin-bottom: 25px;
+        }
+        
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+        
+        td {
+            padding: 10px;
+            vertical-align: top;
+            width: 33%;
+        }
+        
+        label {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            color: #333;
+        }
+        
+        input[type="checkbox"] {
+            margin-right: 8px;
+            transform: scale(1.2);
+        }
+        
+        .submit-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        input[type="submit"] {
+            background-color: #2E8B57;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #246b45;
+        }
+        
+    </style>
+</head>
+<body>
+    <form method="POST" action="/symptom_predict">
+    <div class="container" >
+        <h1>Disease Predictor</h1>
+        <form action="/predict" method="POST">
+            <table>
+                <tr>
+                    {% for symptom in symptoms %}
+                        <td>
+                            <label>
+                                <input type="checkbox" name="symptoms" value="{{ symptom }}">
+                                {{ symptom }}
+                            </label>
+                        </td>
+                        {% if loop.index % 3 == 0 %}
+                            </tr><tr>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            </table>
+            <div class="submit-container">
+                <input type="submit" value="Predict Disease">
+            </div>
+        </form>
+    </div>
+</form>
+</body>
+</html>
+
